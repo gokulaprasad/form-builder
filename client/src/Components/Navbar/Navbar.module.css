@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Navbar.css */
+.navbar {
+  background-color: #1e293b;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  z-index: 20;
+
+}
+
+.logoText {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Outfit";
+}
+
+.navbarBrand {
+  gap: 12px;
+}
+
+/* Common button styles */
+.button {
+  font-family: "Open Sans";
+  padding: .8rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 8px;
+  outline: none;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border: none;
+}
+
+/* buttons css  */
+.bgPrimary {
+  background-color: #1A5FFF;
+  color: #fff;
+
+
+}
+
+.transparentBtn {
+  background: transparent;
+  color: #7ea6ff;
+  border: 1px solid #7ea6ff;
+
+}
